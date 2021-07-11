@@ -1,0 +1,6 @@
+#Pathing a file
+df = pd.read_csv('C:\\Users\\userName\\Desktop\\FFBProject\\data\\2021proj\\QB.csv')
+
+#Top n rows (can do multiple columns or just one)
+df.nlargest(10,['col1','col2'])
+
